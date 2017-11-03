@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jornada Académica de Computación 2017</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- Compiled and minified Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >-->
+
+    <!-- img-responsive -->
+    <link href="css/micss.css" rel="stylesheet">
+    <link href="css/imagen_responsiva.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+</head>
+<body id="page-top">
+
+<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-expand-lg" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header"><a class="navbar-brand" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="galeria.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="conferencias.html"><i class="fa fa-microphone" aria-hidden="true"></i> Conferencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="modales.html"><i class="fa fa-window-restore" aria-hidden="true"></i> Ventana modal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="carrusel.html"> <i class="fa fa-caret-square-o-right" aria-hidden="true"></i> Carrusel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="acercade.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Acerca de</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-block">
+        <h3 class="card-header text-center bg-info">Tutorial para crear un carrusel</h3>
+        <div class="marg" align="center">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ejemplo1">
+                Presione para ver tutorial
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="ejemplo1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Tutorial para crear un carrusel</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div align="center">
+                    Carrusel es un componente de JavaScript en Bootstrap que le permite agregar control deslizante a su sitio. Esto funciona en base a la transformación CSS 3D y le permite agregar diferentes variaciones de presentaciones de diapositivas.
+                    <br>
+                    El carrusel comienza con una etiqueta
+                    que tiene una ID única. En nuestro ejemplo, slider es la ID. El mismo
+                    debe incluir las clases '.carousel' y '.slide' y el atributo data-ride = 'carrusel'.
+                    Luego, la etiqueta div interna con '.carousel-inner' y el atributo role = 'listbox'.
+                    Luego otro div para cada elemento del carrusel con la clase '.carousel-item'.
+                    La etiqueta img tiene '.d-block' y '.img-fluid' para alinear las imágenes correctamente en el navegador.
+                    <br>
+                    Los indicadores deslizantes funcionan en función de la lista ordenada. La etiqueta
+                    usa una clase '.carousel-indicators' y cada etiqueta
+                    en la lista debe contener dos cosas:
+                    El atributo de destino de datos que debe tener el mismo valor que la identificación del carrusel principal.
+                    El atributo data-slide-to con el primer valor como 0 y aumentado a 1 y 2 para dos diapositivas adicionales.
+                    <img src="img/tuto_modal/03.png" width="750px" height="500px">
+                    <br>
+                    Simplemente debe agregar un nuevo
+                    dentro de cada elemento del carrusel debajo de la etiqueta  y usar la clase '.carousel-caption'. La clase '.d-none' se usa para ocultar los leyendas del carrusel en dispositivos móviles pequeños y traerlos de vuelta a los dispositivos medianos usando '.d-md-block'.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Instituto Tecnológico de Tepic</span>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        <a href="#">Ir arriba</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="acercade.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/creative.min.js"></script>
+
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>-->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

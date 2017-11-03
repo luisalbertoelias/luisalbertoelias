@@ -1,0 +1,28 @@
+.carousel, .carousel-inner > .carousel-item > img {
+    height: 415px;
+    width: auto;
+    display:block;
+    margin:auto;
+}
+
+section.banner-tec{
+    background-image: url(../img/banner_tec2.jpg);
+    height: 320px;
+}
+
+div.avatar {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.rect{
+    height: 100px;
+}
+
+.marg{
+    margin: 20px;
+}
